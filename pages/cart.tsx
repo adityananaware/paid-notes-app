@@ -1,5 +1,5 @@
 import { useCart } from "../context/CartContext";
-// import RazorpayButton from "../components/RazorpayButton"; // Uncomment when Razorpay is ready
+import RazorpayButton from "../components/RazorpayButton"; // Uncomment when Razorpay is ready
 
 export default function Cart() {
   const { cart, removeFromCart, clearCart } = useCart();
